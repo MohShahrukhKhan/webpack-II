@@ -23,20 +23,6 @@ let searchImg = async (API, query,sort,filter) => {
     }
 }
 
-// let append = (data, container)=>{
-//     data.forEach(({alt_description, urls:{small}})=>{
-//         let div = document.createElement("div");
-//         let img = document.createElement("img");
-//         img.setAttribute("class","image")
-//         // let h3 = document.createElement("h3");
-
-//         img.src = small;
-//         // h3.textContent = alt_description;
-
-//         div.append(img);
-//         container.append(div);
-//     })
-// }
 let append = (data, container) => {
     data.forEach(({ alt_description, urls: { small } }) => {
         

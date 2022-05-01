@@ -1,9 +1,9 @@
-// Link:- `https://api.unsplash.com/search/photos?query=${query}&per_page=20&client_id=S5vipoDldwtWUoR_LDssbl87_oNMWUcI34hH_EUV03k`
-// console.log("hii");
-//  access key = "S5vipoDldwtWUoR_LDssbl87_oNMWUcI34hH_EUV03k" 
-//  secret key = "Az1LJ2WFbo7yzJEpZwrdqQcLj3nSdLhZU1a8g5vT3B0" 
+// Link:- `https://api.unsplash.com/search/photos?query=${query}&per_page=20&client_id=ETYW1sQz4f5XoevQUA-2v0WhZaGa0V0H945DKdpFN-I`
 
-const API = "S5vipoDldwtWUoR_LDssbl87_oNMWUcI34hH_EUV03k";
+//  access key = "ETYW1sQz4f5XoevQUA-2v0WhZaGa0V0H945DKdpFN-I" 
+//  secret key = "XYG6bvKtj2Sx1jUpMxNBH1FBGZOc27SyRHHStJBg2wU" 
+
+const API = "ETYW1sQz4f5XoevQUA-2v0WhZaGa0V0H945DKdpFN-I";
 
 import navbar from "../component/navbar.js";
 
@@ -82,16 +82,3 @@ document.getElementById("filter").addEventListener("change",function(event){
     });
 })
 
-
-// let searchImg = async () => {
-//     let query = document.getElementById("query").value;
-//     try{
-//         let res = await fetch(`https://api.unsplash.com/search/photos?query=${query}&per_page=20&client_id=S5vipoDldwtWUoR_LDssbl87_oNMWUcI34hH_EUV03k`);
-//         let data = await res.json();
-//         console.log(data);
-
-//     }catch(err){
-//         console.log(err);
-
-//     }
-// }
